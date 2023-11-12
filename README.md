@@ -20,3 +20,6 @@ The code in [App.java](src/main/java/com/learn/App.java) does the following:
 4. Attempts to asynchronously upload an object to S3 using the closed client.
 
 **Note**: Closing the client before performing any operations is not recommended, and it may lead to issues. In this specific case, the SDK should ideally throw an exception. However, it appears that the behavior is causing a fatal error and shutting down the JVM altogether.
+
+## Virtual Machine Crash Logs
+The repository includes logs of the virtual machine crash caused by the unexpected behavior mentioned above. You can find the crash logs in the [vm-crash-logs](vm-crash-logs) directory.

@@ -1,4 +1,4 @@
-package com.test;
+package com.learn;
 
 import org.junit.jupiter.api.*;
 

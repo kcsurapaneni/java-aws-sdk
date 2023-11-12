@@ -1,4 +1,4 @@
-package com.test;
+package com.learn;
 
 import software.amazon.awssdk.core.async.*;
 import software.amazon.awssdk.regions.*;
